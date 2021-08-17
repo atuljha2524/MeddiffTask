@@ -10,7 +10,11 @@
            Else if path passed has '..' then last folder from the current path will be popped out and accordingly we can add it is not '..'
            
 **problem5** : http://localhost:16122/api/Student : With GET function will give you details of all the student.
+
            http://localhost:16122/api/Student/<rollNumber> : with GET function will return the details of given roll number.
+           
            http://localhost:16122/api/Student : With POST function will add the student.
+           
            http://localhost:16122/api/Student/<rollNumber> : With DELETE function will delete the student with given roll number.
+           
            http://localhost:16122/api/Student : With PUT function will update the student which is passed as a json.  
